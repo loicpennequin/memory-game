@@ -80,6 +80,7 @@ const reset = () => {
   state.value = GAME_STATES.CHOOSING_SIZE;
   revealedCards.value = [];
   selectedCards.value = [];
+  tries.value = 0;
 };
 </script>
 
