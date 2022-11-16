@@ -8,6 +8,8 @@ const color = computed(() => `var(--color-${props.card.color})`);
 
 <template>
   <svg viewBox="0 0 100 100">
+    <title>{{ props.card.color }} {{ props.card.shape }}</title>
+
     <circle
       cx="50"
       cy="50"

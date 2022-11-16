@@ -176,6 +176,8 @@ h1 {
 }
 
 .board > li:focus-visible *,
+.board > li:focus-visible::after,
+.board > li:hover::after,
 .board > li:hover * {
   border-color: white;
 }
